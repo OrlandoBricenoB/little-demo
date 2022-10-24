@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
+    <title>Gojom Tech Test - Orlando Briceño</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik"
+      rel="stylesheet"
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/solid.js" integrity="sha384-/BxOvRagtVDn9dJ+JGCtcofNXgQO/CCCVKdMfL115s3gOgQxWaX/tSq5V8dRgsbc" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/fontawesome.js" integrity="sha384-dPBGbj4Uoy1OOpM4+aRGfAOc0W37JkROT+3uynUgTHZCHZNMHfGXsmmvYTffZjYO" crossorigin="anonymous"></script>
+    
+    <script type="module" crossorigin src="/assets/index.07565314.js"></script>
+    <link rel="stylesheet" href="/assets/index.c6a9b69f.css">
+  </head>
+  <body>
+    
+    <!-- Header -->
+    <header class="flex items-center justify-between gap-2">
+      <!-- Left Side -->
+      <div class="flex items-center gap-2">
+        <!-- Title -->
+        <h2 class="hidden md:block"><i class="fas fa-star"></i> Gojom Tech Test</h2>
+        <!-- Title END -->
+        <!-- Filter Type Estate -->
+        <div class="flex gap-2 md:ml-8">
+          <div
+            class="py-1 cursor-pointer tag badge badge--active"
+            data-list="estateTypes"
+            data-value="alquilar"
+          >
+            Alquilar
+          </div>
+          <div
+            class="py-1 cursor-pointer tag badge badge--active"
+            data-list="estateTypes"
+            data-value="comprar"
+          >
+            Comprar
+          </div>
+        </div>
+        <!-- Filter Type Estate END -->
+      </div>
+      <!-- Left Side END -->
+      <!-- Mark -->
+      <div class="relative mark">
+        <img class="rounded-full" src="/assets/profile.71c6d4bc.jpg" width="32" height="32" />
+        <div class="absolute z-20 flex flex-col gap-2 p-4 bg-white rounded shadow mark__list right-1/2" style="top: calc(100% + 1rem);width: 200px">
+          <div class="flex items-center gap-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png" width="24" height="24"/>
+            <p class="text-sm">JavaScript</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="https://vitejs.dev/logo.svg" width="24" height="24"/>
+            <p class="text-sm">Vite</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" width="24" height="24"/>
+            <p class="text-sm">Tailwind CSS</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="https://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg" width="24" height="24"/>
+            <p class="text-sm">Sass</p>
+          </div>
+          <div class="flex items-center gap-2">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ESLint_logo.svg/324px-ESLint_logo.svg.png?20211012234406" width="24" height="24"/>
+            <p class="text-sm">ESLint</p>
+          </div>
+          <hr class="my-2">
+          <p class="text-sm text-center">Hecho con ♥ por Orlando Briceño.</p>
+        </div>
+      </div>
+      <!-- Mark END -->
+    </header>
+    <!-- Header END -->
+    <!-- Main -->
+    <main>
+      <!-- Drawer -->
+      <div class="bg-white drawer"></div>
+      <!-- Drawer END -->
+      <!-- Map -->
+      <div id="map"></div>
+      <!-- Map END -->
+    </main>
+    <!-- Main END -->
+
+    <!-- Maps Script -->
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAGkwsdfdSYLCmkWVl7fgtQCm2zzJ5qwB8&callback=initMap&libraries=marker&v=beta"
+      defer
+    ></script>
+    <!-- Maps Script END -->
+  </body>
+</html>
